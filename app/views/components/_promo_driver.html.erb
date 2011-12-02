@@ -1,0 +1,9 @@
+<div id="<%= slot_code %>" class="component promo-driver <%= 'double' if expand %> <%= additional_classes %>">
+  <% unless component.asset.nil? %>
+    <%= link_to(component.link) do %>
+      <%= image_tag(component.asset.url('200x108#', component.asset.web_image_extension), alt: component.link_label) %>
+    <% end %>
+  <% end %>
+</div>
+
+
