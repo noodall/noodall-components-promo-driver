@@ -1,5 +1,0 @@
-= Noodall Promo Driver Component
-
-A simple "Promo Driver" component for Noodall
-
-This project rocks and uses MIT-LICENSE.
